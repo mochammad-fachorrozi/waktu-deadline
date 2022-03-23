@@ -1,0 +1,36 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.deadline {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+.form-input, .form-output {
+  padding: 10px;
+}
+
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#darkBtn, #lightBtn {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 3px;
+  font-size: 1em;
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+#darkBtn {
+  color: #fff;
+  background-color: #000;
+}

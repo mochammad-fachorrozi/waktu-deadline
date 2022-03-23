@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadline | js</title>
+    <!-- author mochammad fachorrozi -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button onclick="setDarkMode(true)" id="darkBtn" class="">Mode Gelap</button>
+    <button onclick="setDarkMode(false)" id="lightBtn" class="">Mode Terang</button>
+
+    <div class="deadline">
+        <h2>Menghitung waktu mundur hari deadline</h2>
+        <div class="form-input">
+            <p id="contoh">Contoh inputan : 23 Maret, 2022 15:17:25</p>
+            <label for="teksInput">Input : </label>
+            <input type="text" name="teksInput" id="teksInput">
+            <button type="submit" name="kirim" id="kirim">Kirim</button>
+        </div>
+        <div class="form-output">
+            <label for="teksOutput">Output : </label>
+            <input type="text" name="teksOutput" id="teksOutput" disabled>
+            <button type="submit" name="reload" id="reload">Coba lagi</button>
+        </div>
+        <p id="demo"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
